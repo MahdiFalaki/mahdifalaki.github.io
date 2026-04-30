@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mahdi Falaki | Multimodal Computer Vision & Efficient AI</title>
+    <meta
+      name="description"
+      content="Personal website of Mahdi Falaki, recent M.Sc. graduate in Electrical and Computer Engineering focused on multimodal computer vision, efficient AI, RGB-thermal tracking, and applied LLM systems."
+    >
+    <meta property="og:title" content="Mahdi Falaki | Multimodal Computer Vision & Efficient AI">
+    <meta
+      property="og:description"
+      content="Recent Concordia M.Sc. graduate focused on multimodal computer vision, efficient AI, RGB-thermal tracking, and applied LLM systems."
+    >
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="Mahdi Falaki home">Mahdi Falaki</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#publications">Publications</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-content">
+          <p class="eyebrow">Montreal, QC, Canada</p>
+          <h1>Mahdi Falaki</h1>
+          <p class="title-line">M.Sc. in Electrical & Computer Engineering | Multimodal Computer Vision | Efficient AI</p>
+          <p class="hero-summary">
+            Recent Concordia M.Sc. graduate working at the intersection of multimodal computer vision,
+            efficient transformer models, RGB-thermal tracking, and applied AI/LLM systems.
+          </p>
+          <div class="link-row" aria-label="Primary links">
+            <!-- TODO: Add assets/Mahdi_Falaki_Resume.pdf, then replace this disabled span with a link. -->
+            <span class="link-pill is-disabled" aria-disabled="true">Resume coming soon</span>
+            <!-- TODO: Add Google Scholar URL when available. -->
+            <a class="link-pill" href="https://linkedin.com/in/mahdi-falaki">LinkedIn</a>
+            <a class="link-pill" href="https://github.com/MahdiFalaki">GitHub</a>
+            <a class="link-pill link-pill-primary" href="mailto:mahdi.falaki@concordia.ca">Email</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about" aria-labelledby="about-heading">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2 id="about-heading">Research-minded AI engineer</h2>
+        </div>
+        <div class="content-grid">
+          <p>
+            Mahdi recently completed his M.Sc. in Electrical and Computer Engineering at Concordia University,
+            where his work focused on multimodal computer vision, efficient transformer models, and RGB-thermal
+            object tracking at VidPro Lab.
+          </p>
+          <p>
+            He builds end-to-end PyTorch pipelines, runs large-scale HPC experiments, and studies practical
+            speed-accuracy trade-offs. His broader interests include VLM/VLA systems, applied LLM systems,
+            RAG workflows, and production-oriented ML tooling.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="publications" aria-labelledby="publications-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Publications</p>
+          <h2 id="publications-heading">Selected paper</h2>
+        </div>
+        <article class="publication-card">
+          <div>
+            <h3>Lightweight RGB-T Object Tracking with Mobile Vision Transformers</h3>
+            <p class="meta">ICASSP 2026</p>
+            <p>
+              A lightweight RGB-thermal object tracking approach using mobile vision transformers, designed
+              around efficient multimodal representation learning and speed-accuracy trade-offs.
+            </p>
+          </div>
+          <!-- TODO: Add publication links when valid URLs are known:
+               Preprint, code repository, and project page. -->
+        </article>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2 id="projects-heading">Selected work</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>RGB-T Object Tracking with Mobile Vision Transformers</h3>
+            <p>
+              Designed and evaluated a lightweight RGB+thermal tracking system using mobile vision transformers,
+              PyTorch training/evaluation pipelines, ablation studies, and efficiency analysis.
+            </p>
+            <div class="tag-row" aria-label="Technologies">
+              <span>PyTorch</span>
+              <span>Computer Vision</span>
+              <span>RGB-T Tracking</span>
+              <span>MobileViT</span>
+              <span>Multimodal Learning</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>LLM-Powered Crypto Research Dashboard</h3>
+            <p>
+              Built a cloud-native GenAI dashboard with RAG-based Q&A, source-backed summaries, staged generation
+              flows, FastAPI services, Docker deployment, AWS, and CI/CD.
+            </p>
+            <div class="tag-row" aria-label="Technologies">
+              <span>RAG</span>
+              <span>LangGraph</span>
+              <span>FastAPI</span>
+              <span>Docker</span>
+              <span>AWS</span>
+              <span>CI/CD</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>PII Redaction Tool via LLM Fine-Tuning</h3>
+            <p>
+              Fine-tuned and evaluated an open-source LLM for PII masking using Mistral-7B-Instruct-v0.2,
+              LoRA, Axolotl, instruction formatting, and API/UI serving.
+            </p>
+            <div class="tag-row" aria-label="Technologies">
+              <span>Mistral</span>
+              <span>LoRA</span>
+              <span>Axolotl</span>
+              <span>FastAPI</span>
+              <span>LLM Fine-Tuning</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Local LLM Evaluation Pipeline</h3>
+            <p>
+              Built an offline evaluation pipeline for locally served LLMs with reproducible YAML-driven runs,
+              structured artifacts, model-level reports, and instruction-following analysis.
+            </p>
+            <div class="tag-row" aria-label="Technologies">
+              <span>Python</span>
+              <span>Ollama</span>
+              <span>vLLM</span>
+              <span>IFEval</span>
+              <span>Evaluation</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="skills" aria-labelledby="skills-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2 id="skills-heading">Technical focus</h2>
+        </div>
+        <div class="skill-grid">
+          <section class="skill-card" aria-labelledby="vision-skills">
+            <h3 id="vision-skills">Computer Vision / Deep Learning</h3>
+            <div class="tag-row">
+              <span>Object Tracking</span>
+              <span>Vision Transformers</span>
+              <span>Robustness Evaluation</span>
+              <span>Ablation Studies</span>
+              <span>Benchmarking</span>
+            </div>
+          </section>
+
+          <section class="skill-card" aria-labelledby="multimodal-skills">
+            <h3 id="multimodal-skills">Multimodal Learning / Efficient AI</h3>
+            <div class="tag-row">
+              <span>RGB-T Tracking</span>
+              <span>Multimodal Fusion</span>
+              <span>MobileViT</span>
+              <span>Efficient Transformers</span>
+              <span>Speed-Accuracy Trade-offs</span>
+            </div>
+          </section>
+
+          <section class="skill-card" aria-labelledby="python-skills">
+            <h3 id="python-skills">PyTorch / Python</h3>
+            <div class="tag-row">
+              <span>PyTorch</span>
+              <span>Python</span>
+              <span>Training Pipelines</span>
+              <span>Experiment Logging</span>
+              <span>Reproducibility</span>
+            </div>
+          </section>
+
+          <section class="skill-card" aria-labelledby="llm-skills">
+            <h3 id="llm-skills">LLM / RAG / LangGraph</h3>
+            <div class="tag-row">
+              <span>RAG</span>
+              <span>LangGraph</span>
+              <span>OpenAI APIs</span>
+              <span>Local LLM Evaluation</span>
+              <span>Prompt Evaluation</span>
+            </div>
+          </section>
+
+          <section class="skill-card" aria-labelledby="deployment-skills">
+            <h3 id="deployment-skills">Deployment / Systems</h3>
+            <div class="tag-row">
+              <span>FastAPI</span>
+              <span>Docker</span>
+              <span>GitHub Actions</span>
+              <span>CI/CD</span>
+              <span>Linux</span>
+            </div>
+          </section>
+
+          <section class="skill-card" aria-labelledby="systems-skills">
+            <h3 id="systems-skills">AWS / ONNX / HPC</h3>
+            <div class="tag-row">
+              <span>AWS AI Practitioner</span>
+              <span>ONNX</span>
+              <span>Multi-GPU Training</span>
+              <span>SLURM</span>
+              <span>GridEngine</span>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="section credential-section" aria-labelledby="credential-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Certification</p>
+          <h2 id="credential-heading">Cloud AI foundation</h2>
+        </div>
+        <div class="credential-card">
+          <!-- TODO: Place AWS badge image at assets/aws-ai-practitioner-badge.png and replace this text badge with:
+               <img src="assets/aws-ai-practitioner-badge.png" alt="AWS AI Practitioner badge"> -->
+          <p class="credential-label">AWS AI Practitioner</p>
+          <p>
+            Foundation in AWS AI and cloud services for applied machine learning systems.
+          </p>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-heading">Open to research and applied AI conversations</h2>
+        </div>
+        <p class="contact-copy">
+          Open to research, applied AI, computer vision, and ML engineering conversations.
+        </p>
+        <div class="contact-links" aria-label="Contact links">
+          <a href="mailto:mahdi.falaki@concordia.ca">mahdi.falaki@concordia.ca</a>
+          <a href="https://github.com/MahdiFalaki">GitHub</a>
+          <a href="https://linkedin.com/in/mahdi-falaki">LinkedIn</a>
+          <span>Montreal, QC, Canada</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Mahdi Falaki. Built as a static GitHub Pages site.</p>
+    </footer>
+  </body>
+</html>
