@@ -17,6 +17,7 @@ The site is intentionally simple: `index.html`, `styles.css`, and optional files
 - AWS badge: stored at `assets/aws-ai-practitioner-badge.png` and linked to the Credly public badge page.
 - Google Scholar: add the URL in the hero link area once available.
 - Publication links: IEEE Xplore and code/model repository links are included. Add a project page link in the publication card when available.
+- Project links: verified GitHub repository links are included on selected project cards.
 
 ## Push to GitHub
 
