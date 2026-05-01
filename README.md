@@ -16,7 +16,7 @@ The site is intentionally simple: `index.html`, `styles.css`, and optional files
 - Resume PDF: place it at `assets/Mahdi_Falaki_Resume.pdf`, then replace the disabled "Resume coming soon" item in `index.html` with a link to that file.
 - AWS badge: place it at `assets/aws-ai-practitioner-badge.png`, then replace the text credential card markup with the image markup noted in the HTML TODO comment.
 - Google Scholar: add the URL in the hero link area once available.
-- Publication links: add valid URLs for preprint, code, and project page in the publication card when they are available.
+- Publication links: IEEE Xplore and code/model repository links are included. Add a project page link in the publication card when available.
 
 ## Push to GitHub
 
@@ -52,4 +52,4 @@ The site should become available at `https://mahdifalaki.github.io/` after GitHu
 - Add Google Scholar URL.
 - Add resume PDF at `assets/Mahdi_Falaki_Resume.pdf`.
 - Add AWS badge image at `assets/aws-ai-practitioner-badge.png`.
-- Add ICASSP 2026 preprint, code, and project page links when public URLs are available.
+- Add ICASSP 2026 project page link when a public URL is available.
