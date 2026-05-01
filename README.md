@@ -2,7 +2,7 @@
 
 This repository contains a plain static one-page personal website for Mahdi Falaki, intended for GitHub Pages deployment at `https://mahdifalaki.github.io/`.
 
-The site is intentionally simple: `index.html`, `styles.css`, and optional files in `assets/`. There is no Python app, build step, framework, package manager, or server-side code.
+The site is intentionally simple: `index.html`, `styles.css`, a small `script.js` for copying the email address, and optional files in `assets/`. There is no Python app, build step, framework, package manager, or server-side code.
 
 ## Edit the Website
 

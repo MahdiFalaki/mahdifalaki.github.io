@@ -15,6 +15,7 @@
     >
     <meta property="og:type" content="website">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header class="site-header">
@@ -44,9 +45,11 @@
           <div class="link-row" aria-label="Primary links">
             <a class="link-pill" href="assets/Resume_Mahdi_Web.pdf" target="_blank" rel="noopener">Resume</a>
             <!-- TODO: Add Google Scholar URL when available. -->
-            <a class="link-pill" href="https://linkedin.com/in/mahdi-falaki">LinkedIn</a>
-            <a class="link-pill" href="https://github.com/MahdiFalaki">GitHub</a>
-            <a class="link-pill link-pill-primary" href="mailto:mahdi.falaki@concordia.ca">Email</a>
+            <a class="link-pill" href="https://linkedin.com/in/mahdi-falaki" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="link-pill" href="https://github.com/MahdiFalaki" target="_blank" rel="noopener">GitHub</a>
+            <button class="link-pill link-pill-primary" type="button" data-copy-email="mahdi.falaki@concordia.ca">
+              Copy email
+            </button>
           </div>
         </div>
       </section>
@@ -54,7 +57,7 @@
       <section class="section" id="about" aria-labelledby="about-heading">
         <div class="section-heading">
           <p class="eyebrow">About</p>
-          <h2 id="about-heading">Research-minded AI engineer</h2>
+          <h2 id="about-heading">Research Intern</h2>
         </div>
         <div class="content-grid">
           <p>
@@ -85,8 +88,8 @@
               around efficient multimodal representation learning and speed-accuracy trade-offs.
             </p>
             <div class="publication-links" aria-label="Publication links">
-              <a href="https://ieeexplore.ieee.org/document/11461823">IEEE Xplore</a>
-              <a href="https://github.com/MahdiFalaki/Lightweight-RGB-T-object-tracker-using-Mobile-Vision-Transfomers">Code &amp; model weights</a>
+              <a href="https://ieeexplore.ieee.org/document/11461823" target="_blank" rel="noopener">IEEE Xplore</a>
+              <a href="https://github.com/MahdiFalaki/Lightweight-RGB-T-object-tracker-using-Mobile-Vision-Transfomers" target="_blank" rel="noopener">Code &amp; model weights</a>
             </div>
           </div>
           <!-- TODO: Add project page link when a public URL is available. -->
@@ -203,6 +206,8 @@
           <a
             class="credential-badge-link"
             href="https://www.credly.com/badges/afdf0e0b-2c70-4b45-9ca8-925fbade9377/public_url"
+            target="_blank"
+            rel="noopener"
             aria-label="View AWS AI Practitioner badge on Credly"
           >
             <img src="assets/aws-ai-practitioner-badge.png" alt="AWS AI Practitioner badge">
@@ -300,8 +305,9 @@
         </p>
         <div class="contact-links" aria-label="Contact links">
           <a href="mailto:mahdi.falaki@concordia.ca">mahdi.falaki@concordia.ca</a>
-          <a href="https://github.com/MahdiFalaki">GitHub</a>
-          <a href="https://linkedin.com/in/mahdi-falaki">LinkedIn</a>
+          <button type="button" data-copy-email="mahdi.falaki@concordia.ca">Copy email</button>
+          <a href="https://github.com/MahdiFalaki" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/mahdi-falaki" target="_blank" rel="noopener">LinkedIn</a>
           <span>Montreal, QC, Canada</span>
         </div>
       </section>
