@@ -337,6 +337,25 @@ h3 {
   padding: 22px;
 }
 
+.credential-card-with-badge {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.credential-badge-link {
+  flex: 0 0 auto;
+  display: inline-flex;
+  border-radius: 8px;
+}
+
+.credential-badge-link img {
+  width: 112px;
+  height: 112px;
+  display: block;
+  object-fit: contain;
+}
+
 .credential-label {
   margin-bottom: 8px;
   color: var(--text) !important;
@@ -432,6 +451,15 @@ h3 {
   .skill-card,
   .credential-card {
     padding: 18px;
+  }
+
+  .credential-card-with-badge {
+    align-items: flex-start;
+  }
+
+  .credential-badge-link img {
+    width: 86px;
+    height: 86px;
   }
 
   .link-pill,
