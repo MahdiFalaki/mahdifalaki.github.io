@@ -13,7 +13,7 @@ The site is intentionally simple: `index.html`, `styles.css`, and optional files
 
 ## Personal Links and Assets
 
-- Resume PDF: place it at `assets/Mahdi_Falaki_Resume.pdf`, then replace the disabled "Resume coming soon" item in `index.html` with a link to that file.
+- Resume PDF: stored at `assets/Resume_Mahdi_Web.pdf` and linked from the hero section.
 - AWS badge: stored at `assets/aws-ai-practitioner-badge.png` and linked to the Credly public badge page.
 - Google Scholar: add the URL in the hero link area once available.
 - Publication links: IEEE Xplore and code/model repository links are included. Add a project page link in the publication card when available.
@@ -50,5 +50,4 @@ The site should become available at `https://mahdifalaki.github.io/` after GitHu
 ## Remaining TODOs
 
 - Add Google Scholar URL.
-- Add resume PDF at `assets/Mahdi_Falaki_Resume.pdf`.
 - Add ICASSP 2026 project page link when a public URL is available.
